@@ -241,6 +241,7 @@ nav .btn-3 img {
 #package .packages {
     display: flex;
     justify-content: space-between;
+    align-items: end;
     flex-wrap: wrap;
 }
 #package .package-item {
@@ -250,6 +251,10 @@ nav .btn-3 img {
     box-shadow: -4px 4px 19px -3px rgba(0, 0, 0, 0.33);
     border-radius: 34px;
     position: relative;
+}
+#package .package-item.big {
+    width: 391px;
+    height: 432px;
 }
 #package .package-item::before {
     position: absolute;
@@ -313,6 +318,9 @@ nav .btn-3 img {
     color: #707070;
     font-size: 18px;
     padding-right: 20px;
+}
+.big .package-text p {
+    padding-right: 30px;
 }
 .package-text .pt {
     padding-top: 25px;
