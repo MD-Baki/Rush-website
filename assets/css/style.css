@@ -340,3 +340,145 @@ nav .btn-3 img {
     padding-top: 66px;
 }
 /* ||Description Css End|| */
+
+/* Why Choose Css Start */
+#choose {
+    padding: 60px 0;
+    background-color: rgba(245, 245, 245, 50%);
+}
+#choose .heading {
+    text-align: center;
+    padding-bottom: 108px;
+}
+#choose .heading h4 {
+    font-size: 58px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+#choose .heading p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    color: var(--secondary-font-color);
+}
+.chooses-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.chooses-container .item {
+    width: 428px;
+    height: 522px;
+    box-shadow: -2px 3px 18px 0px rgba(0, 0, 0, 0.15);
+    background: var(--prime-color);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 20px;
+}
+.chooses-container .item img {
+    height: 74px;
+}
+.chooses-container .item h5 {
+    font-size: 38px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.chooses-container .item p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 52px;
+    color: var(--secondary-font-color);
+}
+/* ||Why Choose Css End|| */
+
+/* Subscriptions Css Start */
+#sub {
+    padding: 120px;
+}
+#sub .sub-heading {
+    text-align: center;
+}
+.sub-heading h4 {
+    font-size: 58px;
+    font-weight: 700;
+    font-weight: 78px;
+    padding-bottom: 48px;
+}
+.sub-heading p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    color: var(--secondary-font-color);
+    padding-bottom: 80px;
+}
+.sub-heading button {
+    padding: 25px 68px;
+    background: var(--focus-color);
+    color: var(--prime-color);
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+/* ||Subscriptions Css End|| */
+
+/* Feedback Css Start */
+#feedback {
+    background-color: rgba(245, 245, 245, 50%);
+    padding-bottom: 100px;
+}
+#feedback .heading {
+    padding: 100px 0;
+    text-align: center;
+}
+#feedback .heading h4 {
+    font-size: 58px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+#feedback .heading p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    color: var(--secondary-font-color);
+}
+#feedback .show-feedback {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#feedback .feedback-item {
+    position: relative;
+    width: 448px;
+    height: 666px;
+    box-shadow: -2px 3px 18px 0px rgba(0, 0, 0, 0.15);
+    background: var(--prime-color);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+#feedback .feedback-item .samiclone {
+    position: absolute;
+    top: -25px;
+    right: 50px;
+}
+#feedback .feedback-item h5 {
+    font-size: 38px;
+    font-weight: 400;
+    padding: 38px 0;
+}
+#feedback .feedback-item p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 52px;
+    color: var(--secondary-font-color);
+}
+#feedback .feedback-item .star-icone {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+/* ||Feedback Css End|| */
