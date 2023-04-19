@@ -1,5 +1,5 @@
 /* Google Font- "Poppins" */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 /* ||Common Css Start|| */
 body {
@@ -182,6 +182,7 @@ nav .btn-3 img {
 /* Qoute Css Start */
 #qoute .qoute-btn {
     padding: 0 135px;
+    padding-bottom: 72px;
 }
 #qoute .btn-1 {
     background: var(--focus-color);
@@ -202,3 +203,132 @@ nav .btn-3 img {
     padding: 38px 0;
 }
 /* ||Qoute Css End|| */
+
+/* Package Css Start */
+#package {
+    position: relative;
+    z-index: 1;
+    height: 897px;
+}
+#package::before {
+    position: absolute;
+    content: "";
+    background: url(../images/package-bg.png);
+    width: 1346px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#package::after {
+    position: absolute;
+    content: "";
+    background: url(../images/package-bg-overlay.png);
+    width: 1427px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#package .heading h4 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 58px;
+    padding-top: 35px;
+    padding-bottom: 251px;
+}
+#package .packages {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#package .package-item {
+    width: 371px;
+    height: 412px;
+    background: var(--prime-color);
+    box-shadow: -4px 4px 19px -3px rgba(0, 0, 0, 0.33);
+    border-radius: 34px;
+    position: relative;
+}
+#package .package-item::before {
+    position: absolute;
+    content: "";
+    background: var(--focus-color);
+    width: 21px;
+    height: 131px;
+    top: 32px;
+    left: 0;
+    border-radius: 0 20px 20px 0;
+}
+#package .package-item .package-overlay {
+    position: absolute;
+    height: 119px;
+    width: 261px;
+    background: var(--focus-color);
+    border-radius: 0 0 34px 34px;
+    right: 16px;
+    top: -28px;
+    text-align: center;
+    z-index: 1;
+}
+#package .package-item .package-overlay::after {
+    position: absolute;
+    content: "";
+    background: #ba1924;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: -27px;
+}
+#package .package-item .package-overlay img {
+    position: absolute;
+    height: 48px;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 30;
+    cursor: pointer;
+}
+#package .package-item .package-overlay h6 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 25px;
+    text-transform: uppercase;
+    color: var(--prime-color);
+}
+#package .package-item .package-text {
+    padding: 128px 0 0 32px;
+    font-weight: 400;
+}
+.package-text h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--focus-color);
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+.package-text p {
+    color: #707070;
+    font-size: 18px;
+    padding-right: 20px;
+}
+.package-text .pt {
+    padding-top: 25px;
+}
+/* ||Package Css End|| */
+
+/* Description Css Start */
+#description {
+    padding: 132px 242px;
+    background: var(--focus-color);
+    color: var(--prime-color);
+    text-align: center;
+    font-size: 44px;
+    font-weight: 300;
+}
+#description .dis-pt {
+    padding-top: 66px;
+}
+/* ||Description Css End|| */
